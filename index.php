@@ -10,7 +10,7 @@ require('dbconnect.php');
 
 <?php
 
-include('header.html');
+include('meta/header.html');
 
 ?>
 
@@ -47,7 +47,6 @@ include('header.html');
 
     $query = "SELECT ConferenceId FROM CONFERENCE";
 
-    echo $query;
 
     $result = mysqli_query($conn, $query);
 
