@@ -1,6 +1,6 @@
 <?php
 require('dbconnect.php');
-require_once('header.html');
+include('meta/header.html');
 ?>
 <body>
     <h2 class="header">Hockey Player Database</h2>
@@ -54,6 +54,6 @@ $conn->close();*/
 
 </div>
 <?php
- require_once('footer.php');
+ include('meta/footer.php');
 ?>
 
