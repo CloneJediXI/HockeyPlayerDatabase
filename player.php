@@ -29,7 +29,7 @@
       <a href="adminPages/adminHome.html">Admin</a>
     </div>
     <main>
-      <div class="main">
+      <div class="main" style="padding:10px; background-color: rgba(200, 200, 200, 0.8);">
         <form method="post" action="/index.php">
           <div class="tablevals">
             <p style="color: white"> VIEW PLAYERS </p>
@@ -43,7 +43,7 @@
 				echo "<table style='border:solid white 2px'> <tr>";
 				foreach($col as $val) {
 					?>
-					<td>
+					<td style='border:solid gold 2px'>
 					<?php echo "<b>".$val->name."</b>"; ?>
 					</td>
 					<?php
