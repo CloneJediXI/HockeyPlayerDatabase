@@ -18,9 +18,12 @@ include('meta/header.html');
 
   <body>
     <h2 class="header">Hockey Player Database</h2>
-    <div class="inputDesign">
-        <input class="inputDesign" type="text" placeholder="Search..">
-    </div>
+    <form method="post" action="/playerSearchResults.php">
+      <div class="inputDesign">
+          <input class="inputDesign" type="text" name="searchTerm" placeholder="Enter a first and last name to search for a player"></input>
+          <input type="submit"></input>
+      </div>
+    </form>
     <div class="sidenav">
       <a href="/index.php">Home</a>
       <a href="#services">Services</a>
