@@ -26,7 +26,7 @@ include('meta/header.html');
     </form>
     <div class="sidenav">
       <a href="/index.php">Home</a>
-      <a href="#services">Services</a>
+      <a href="playerDashboard.php">Player Dashboard</a>
       <a href="#clients">View</a>
       <a href="#contact">About</a>
       <a href="adminPages/adminHome.html">Admin</a>
