@@ -40,7 +40,7 @@ include('meta/header.html');
             <!-- Specify the Conference-->
             <label for="conference">Conference :</label>
             <select name="conference" id="conference">
-                <option value="any">Any</option>
+                <option value="any">All</option>
             <?php 
                 $db = mysqli_connect($servername, $username, $password, $dbname);
                 $query = "SELECT * FROM CONFERENCE";
@@ -60,7 +60,7 @@ include('meta/header.html');
             <!-- Specify the Division-->
             <label for="division">Division :</label>
             <select name="division" id="division">
-                <option value="any">Any</option>
+                <option value="any">All</option>
             <?php 
             if($_POST["conference"] != "any"){
                 $db = mysqli_connect($servername, $username, $password, $dbname);
@@ -82,7 +82,7 @@ include('meta/header.html');
             <!-- Specify the Team-->
             <label for="team">Team :</label>
             <select name="team" id="team">
-                <option value="any">Any</option>
+                <option value="any">All</option>
             <?php 
             if($_POST["division"] != "any" && $_POST["conference"] != "any"){
                 $db = mysqli_connect($servername, $username, $password, $dbname);
