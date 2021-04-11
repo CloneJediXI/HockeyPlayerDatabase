@@ -254,7 +254,7 @@ Winter 2021 -->
             </div>
 
             <div>
-                <a href="/adminHome.html"> Back to Admin Home </a>
+                <a href="adminHome.html"> Back to Admin Home </a>
             </div>
 		</main>
 	</body>
