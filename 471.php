@@ -81,7 +81,7 @@ body {
 </div>
 <div class="sidenav">
   <a href="#about">Home</a>
-  <a href="#services">Services</a>
+  <a href="playerDashboard.php">Player Dashboard</a>
   <a href="#clients">View</a>
   <a href="#contact">About</a>
 </div>
